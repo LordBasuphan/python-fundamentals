@@ -1,1 +1,5 @@
-print("Sum",9+5)
+#print is a funtion used to display syntax (uses arguments and stuff)
+print("Hello World")
+print("I am", 15)
+print("     ")
+print ("next we're doing data types")
