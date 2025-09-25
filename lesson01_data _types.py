@@ -6,7 +6,7 @@ print("7 is also a string")
 print("My name is Jack\n and I went on a walk")
 print("Age:7\t Name:\t Bob")
 
-#Variables- whole 0, negative, and positive numbers
+#Integers- whole 0, negative, and positive numbers
 #Float- A number with a decimal point
 print(7+3)
 print(8)
