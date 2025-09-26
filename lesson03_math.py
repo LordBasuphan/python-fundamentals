@@ -28,4 +28,13 @@ print((5 + 8) * 9)
 result1 = 20 / 5 * 2
 print(result1)
 
+#Challenges
 
+rec_area = 8 * 5 
+print("The area is:", rec_area)
+
+circ_area = 7 ** 2 * 3.14 
+print("The area is:", circ_area)
+
+book_cost = (12.99 * 3) + (3.5 * 4)
+print("The total cost is:", book_cost)
