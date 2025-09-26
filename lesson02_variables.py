@@ -50,3 +50,4 @@ print(switch)
 is_raining = False
 is_raining = True
 print("Is it raining?", is_raining)
+
