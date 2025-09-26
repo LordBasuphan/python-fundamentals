@@ -38,3 +38,6 @@ print("The area is:", circ_area)
 
 book_cost = (12.99 * 3) + (3.5 * 4)
 print("The total cost is:", book_cost)
+
+numb_checker = 3
+print("If the number is more than 0 then it is odd if even then 0. The number is:", numb_checker % 2)
