@@ -14,7 +14,24 @@ print("Pi:", math.pi)
 #But to be truly random you must use something from real life that is truly random i.e. the temperature a video or a phohto
 #True random number generator- Can only be achived in real life
 
-seed = 182.74
+seed = 133.74
 seedpt2 = math.sqrt(seed)
 seedpt3 = math.pow(seedpt2,5)
 print(seedpt3)
+print(seedpt3 + 3)
+print(seedpt3 / 9)
+print(math.pow(seedpt3, 3))
+print(math.floor(seedpt3))
+print(seedpt3 % 10)
+
+import random
+
+#Methods
+print("Random Integer:", random.randint(1, 1000))
+print(random.random())
+
+#lists 
+
+print(random.choice(["eggs", "chicken", "cheese"]))
+food= ["eggs", "chicken", "cheese"]
+print(random.choice(food))
