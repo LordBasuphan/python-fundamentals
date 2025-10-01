@@ -35,3 +35,13 @@ print(random.random())
 print(random.choice(["eggs", "chicken", "cheese"]))
 food= ["eggs", "chicken", "cheese"]
 print(random.choice(food))
+
+#Challenges
+diameter = 14
+radius = diameter / 2
+area = math.pow(radius,2) * 3.14
+print(area)
+
+#Dice challenge
+die_roll = random.randint(1,6)
+print(die_roll)
