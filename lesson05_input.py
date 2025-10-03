@@ -16,6 +16,10 @@
 # print(num_1 + num_2 )
 
 import math 
-circle_diameter = int(input("Input a number for the diamter of a circle:"))
-circle_radius = circle_diameter / 2
-print(math.pow(circle_radius, 2) * math.pi)
+# circle_diameter = int(input("Input a number for the diamter of a circle:"))
+# circle_radius = circle_diameter / 2
+# print(math.pow(circle_radius, 2) * math.pi)
+
+import random 
+die_sides = int(input("How many sides of the die do you want:"))
+print(random.randint(1, die_sides))
