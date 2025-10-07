@@ -20,6 +20,6 @@ word_length = len(country)
 print(word_length)
 
 phrase = "JaCkSAuL"
-print("Yo:", phrase.upper)
-print("Yo", phrase.lower)
-print("Yo", phrase.capitalize)
+print("Yo:", phrase.upper())
+print("Yo", phrase.lower())
+print("Yo", phrase.capitalize())
