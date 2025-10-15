@@ -32,10 +32,24 @@
 # else: print("Get out the car!")
 
 #uisng "or" and "not"
-day = "Monday"
+# day = "Monday"
 
-if day == "Saturday" or day == "Sunday": 
-    print("It is the weekend")
-elif day == "Monday" or day == "Tuesday": print("It is Monday or Tuesday")
-else: print("It is a week day")
-if day is not "Monday": "Print it is not Monday"
+# if day == "Saturday" or day == "Sunday": 
+#     print("It is the weekend")
+# elif day == "Monday" or day == "Tuesday": print("It is Monday or Tuesday")
+# else: print("It is a week day")
+# if not day is "Monday": print("it is not Monday")
+
+#Challenges
+# user_inputnumb = int(input("Provide a number:"))
+# user_numb = user_inputnumb % 2 
+# if user_numb == 1: print("Your number is odd")
+# elif user_numb != 1: print("Your number is even")
+
+stored_password = input("Put in your desired password:")
+input_password = input("Enter password:")
+if input_password == stored_password: print("Access Granted")
+else: print ("Acess Denied")
+
+
+
