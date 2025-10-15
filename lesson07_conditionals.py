@@ -46,10 +46,15 @@
 # if user_numb == 1: print("Your number is odd")
 # elif user_numb != 1: print("Your number is even")
 
-stored_password = input("Put in your desired password:")
-input_password = input("Enter password:")
-if input_password == stored_password: print("Access Granted")
-else: print ("Acess Denied")
+# stored_password = input("Put in your desired password:")
+# input_password = input("Enter password:")
+# if input_password == stored_password: print("Access Granted")
+# else: print ("Acess Denied")
 
-
+grade_input = int(input("Enter the students grade:"))
+if grade_input >= 90: print("Grade is an A")
+elif grade_input >= 80: print("Grade is a B ")
+elif grade_input >= 70: print ("Grade is a C")
+elif grade_input >= 60: print ("Grade is a D")
+else: print("Grade is a F")
 
