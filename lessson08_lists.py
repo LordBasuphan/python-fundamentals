@@ -39,3 +39,14 @@
 # ]
 
 #Challenges
+# given_list = [ 1, 2, 3, 4, 5, 6 ] 
+# number_input = int(input("Provide a number:"))
+# given_list[2] = number_input 
+# print(given_list)
+
+shopping = []
+shopping.append("Eggs")
+shopping.append("Bread")
+shopping.append("Milk")
+shopping.insert(1,"Cheese")
+print(shopping)
