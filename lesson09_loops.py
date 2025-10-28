@@ -26,14 +26,22 @@
 # while user_input != "exit":
 #     user_input = input("Try to escape:")
 
-count = 60
-increment = 1
+# count = 60
+# increment = 1
 
-while count > 1:
-    increment += 1
-    count -= increment
+# while count > 1:
+#     increment += 1
+#     count -= increment
 
-     if count < 0:
-        break
+#      if count < 0:
+#         break
 
-    print(count)
+#     print(count)
+
+#Challenges
+import random
+fruit_list = ["Apple", "Bannana", "Orange", "Watermelon", "Blueberry", "Strawberry", "Rasberry", "Pineapple"]
+number = int(input("How many?"))
+for i in range(number):
+    fruit = random.choice(fruit_list)
+    print("You got:", fruit)
